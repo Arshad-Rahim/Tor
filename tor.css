@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #59316b;
+
+}
+
+/* navbae logo image width and the size */
+.navbar-brand img {
+    margin-left: 10px;
+    width: 80px;
+    height: 49px;
+}
+
+section {
+    background-color: #59316b;
+   
+}
+
+
+
+section {
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+.main-heading {
+
+
+    font-size: 88px;
+    font-weight: 200;
+}
+
+@media (max-width:765px) {
+    .main-heading {
+        font-size: 56px;
+    }
+}
+ 
+.text1 h2{
+    color: #7d4698;
+    font-size: 24px;
+    font-weight: 500;
+}
+.text1 p{
+    color:black;
+    font-size: 20px;
+    font-weight:400;
+}
+.about h5{
+    color: #7d4698;
+    font-size: 16px;
+    font-weight: 700;
+}
+.about h1{
+    
+    color:#484848; 
+    font-size: 70px;
+    font-weight: 200;
+}
+.about a{
+    color: #7d4698;
+    text-decoration: none;
+}
+@media (max-width:765px) {
+    .about h1{
+        font-size: 40px;
+        font-weight: 400;
+    }
+}
+
+
+.hover-effect a:hover{
+    opacity:0.5;
+    
+}
+
+
+/* the footer designing */
+
+.onion-pattern {
+    direction: rtl;
+    max-height: 280px;
+}
+
+.onion-pattern img {
+    height: 100%;
+    position: relative;
+    left: -181px;
+}
+.fa-arrow-down {
+    color: purple;
+    font-size: 20px; /* Adjust size as needed */
+}
+@media screen and (max-width:576px){
+    #onion-vis{
+        display: none;
+    }
+}
+@media screen and (max-width:576px){
+    .list-with-btn, .last-icon{
+        display: none;
+    }
+}
+@media screen and (max-width:576px){
+    .last-btn{
+        display: none;
+    }
+}
+@media screen and (max-width:576px){
+    .last-icon{
+        display: none;
+    }
+}
+.link-buttons:hover{
+    cursor: pointer;
+}
